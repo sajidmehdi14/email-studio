@@ -46,7 +46,7 @@ my-email-studio/
 
 **No brand of your own?** Use the sample: Kettlebird Tea, a made-up tea shop launching a monthly tea box called The Steep Club. The prompts below use it.
 
-0 of 15 done
+1 of 15 done
 
 #### Part 1 · Plan and write
 
@@ -74,7 +74,7 @@ Real-world habit2.4
 
 Search for skills other people made, and decide which ones to trust.
 
-[ ] Done
+[x] Done
 
 **In plain words:** a skill is like an app for Claude. Before you build one, look in the app store. Download counts can be faked, so also check who made it.
 
