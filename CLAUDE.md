@@ -2,6 +2,23 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## The studio
+
+This is an email studio for a small business. We use it to plan email campaigns and write the emails for them.
+
+### Folders
+
+- `brand/`: how the business sounds, meaning its voice, the words it uses and the claims it never makes.
+- `leads/`: the practice list of customers the emails are written for.
+- `campaigns/`: one folder per campaign, holding its plan and its emails.
+- `notes/`: working notes, research and decisions.
+
+### Studio rules
+
+- Write in plain English: short sentences, everyday words, no jargon.
+- Never send email to real people.
+- Ask me before deleting anything.
+
 ## What this is
 
 A hands-on Claude Code course project ("Email Studio Lab"). It builds an email-marketing studio for a made-up tea shop, **Kettlebird Tea**, launching a monthly subscription box, **The Steep Club**. Claude plans the campaign, writes the emails, personalizes them per customer group, and sends them only to a local practice Resend server.
