@@ -46,7 +46,7 @@ my-email-studio/
 
 **No brand of your own?** Use the sample: Kettlebird Tea, a made-up tea shop launching a monthly tea box called The Steep Club. The prompts below use it.
 
-4 of 15 done
+5 of 15 done
 
 #### Part 1 · Plan and write
 
@@ -286,7 +286,7 @@ Type `/marketing:campaign-plan` with nothing after it and look at the hint. That
 
 Use two example rows to get the exact format, and give one folder its own rules.
 
-[ ] Done
+[x] Done
 
 **In plain words:** two example rows work like a photo of the dish instead of a description of it. `leads/CLAUDE.md` is a sign on one room's door: Claude reads it when it walks into that room.
 
