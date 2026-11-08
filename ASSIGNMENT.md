@@ -46,7 +46,7 @@ my-email-studio/
 
 **No brand of your own?** Use the sample: Kettlebird Tea, a made-up tea shop launching a monthly tea box called The Steep Club. The prompts below use it.
 
-7 of 15 done
+8 of 15 done
 
 #### Part 1 · Plan and write
 
@@ -463,7 +463,7 @@ The session that wrote something keeps its own reasoning and rarely questions it
 
 Build a skill with the three settings the exam asks about, and use it.
 
-[ ] Done
+[x] Done
 
 **In plain words:** a skill is a recipe card. Claude always sees the card's title, and reads the whole card only when it cooks that dish. `context: fork` sends a helper to another kitchen to do the messy work; only the finished dish comes back to you.
 
