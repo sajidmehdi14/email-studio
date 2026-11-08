@@ -59,8 +59,8 @@ When a Build or Check prompt uses the Kettlebird sample (Steep Club, tea groups,
 
 - Line 1 `Subject: ...` at 50 characters or fewer; line 2 `Preview: ...` at 90 characters or fewer.
 - Greeting uses `{{first_name}}`.
-- Exactly one main link, pointing at a page of the book (the course sample uses `kettlebird.example`; step 6 sets ours, likely https://agentfactory2.panaversity.org/certification-and-portfolio-roadmaps/).
-- Ends with the sign-off from `brand/voice.md`, then a two-line footer as plain text (never in a code block): why the reader is getting the email, then `Panaversity, {{company_address}} · Unsubscribe: {{unsubscribe_url}}`. Step 6 fixes the exact wording.
+- Exactly one main link, to a page of the book: by default https://agentfactory2.panaversity.org/certification-and-portfolio-roadmaps/ (the course sample uses `kettlebird.example`).
+- Ends with the sign-off from `brand/voice.md`, then the exact two-line footer in `.claude/rules/emails.md`, as plain text (never in a code block).
 - Avoid every word and claim that `brand/voice.md` forbids, such as promising a job, income or a pass. When checking, measure lengths and link counts with commands instead of eyeballing them.
 
 ## Commands
