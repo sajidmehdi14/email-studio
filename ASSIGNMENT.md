@@ -46,7 +46,7 @@ my-email-studio/
 
 **No brand of your own?** Use the sample: Kettlebird Tea, a made-up tea shop launching a monthly tea box called The Steep Club. The prompts below use it.
 
-2 of 15 done
+3 of 15 done
 
 #### Part 1 · Plan and write
 
@@ -186,7 +186,7 @@ Team standards go at project level: CLAUDE.md in the repo, `.claude/settings.jso
 
 Let Claude interview you, then keep the voice in its own file that CLAUDE.md imports.
 
-[ ] Done
+[x] Done
 
 **In plain words:** a tailor takes your measurements before cutting the cloth. Here Claude asks first, then writes. The `@brand/voice.md` line is a note pinned to the notice board that says "also read the brand book".
 
