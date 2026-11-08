@@ -19,6 +19,12 @@ This is an email studio for a small business. We use it to plan email campaigns 
 - Never send email to real people.
 - Ask me before deleting anything.
 
+### Our brand
+
+Our brand is Panaversity's free book *The AI Agent Factory* (second edition). The emails are for our students, about preparing for the certifications. We use this instead of the course's Kettlebird Tea sample, so when a step in `ASSIGNMENT.md` names Kettlebird Tea, The Steep Club, its link or its footer, adapt it to the book.
+
+@brand/voice.md
+
 ## What this is
 
 A hands-on Claude Code course project ("Email Studio Lab"). It builds an email-marketing studio for a made-up tea shop, **Kettlebird Tea**, launching a monthly subscription box, **The Steep Club**. Claude plans the campaign, writes the emails, personalizes them per customer group, and sends them only to a local practice Resend server.
