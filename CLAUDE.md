@@ -27,16 +27,18 @@ Our brand is Panaversity's free book *The AI Agent Factory* (second edition). Th
 
 ## What this is
 
-A hands-on Claude Code course project ("Email Studio Lab"). It builds an email-marketing studio for a made-up tea shop, **Kettlebird Tea**, launching a monthly subscription box, **The Steep Club**. Claude plans the campaign, writes the emails, personalizes them per customer group, and sends them only to a local practice Resend server.
+A hands-on Claude Code course project ("Email Studio Lab"). It builds an email-marketing studio where Claude plans a campaign, writes the emails, personalizes them per group of readers, and sends them only to a local practice Resend server. The course's sample brand is a made-up tea shop, Kettlebird Tea, but **this studio uses our own brand instead: The AI Agent Factory book** (see "Our brand" above). The campaign helps students prepare for the certifications.
 
 `ASSIGNMENT.md` is the source of truth: 15 steps, each with a **Build** prompt, then a **Check** prompt run in a *fresh* session. When asked to do a step, follow its Build prompt exactly (file names, front matter, folder layout). Many later steps depend on exact paths from earlier ones. Check prompts say "Don't change any files": respect that and only measure and report.
 
-Status: only `ASSIGNMENT.md` exists so far, and the folder is not yet a git repo (`git init` is part of setup). Step 2 asks for the studio's own CLAUDE.md. When doing it, extend this file rather than replacing it.
+Progress is tracked with the `[x] Done` boxes and the "N of 15 done" line in `ASSIGNMENT.md`. The repo is on GitHub as `sajidmehdi14/email-studio` (private).
+
+When a Build or Check prompt uses the Kettlebird sample (Steep Club, tea groups, `kettlebird.example` link, tea footer, "detox" examples), carry out the same task for the book instead. Keep the prompt's structure and file paths, and swap only the brand details.
 
 ## Target layout (built across the steps)
 
 - `brand/voice.md`: voice guide, imported into CLAUDE.md with `@brand/voice.md` (step 3).
-- `leads/leads.csv`: 24 practice leads, 8 each in `tea-curious`, `gift-buyers`, `daily-drinkers`. Columns: `first_name,last_name,email,group,joined_on,consent`. `leads/CLAUDE.md` holds folder-only rules (step 5).
+- `leads/leads.csv`: 24 practice leads, 8 in each of three groups. The course's tea groups get replaced with student groups that fit the book; decide these at step 5. Columns: `first_name,last_name,email,group,joined_on,consent`. `leads/CLAUDE.md` holds folder-only rules (step 5).
 - `campaigns/<name>/plan.md`, `emails/NN-short-name.md`, `groups/<group>/emails/` (per-group copies with the same file names).
 - `.claude/rules/emails.md`: path-scoped rule (`paths: ["campaigns/**/emails/*.md"]`) defining email format (step 6).
 - `.claude/skills/personalize/SKILL.md`: `context: fork`, `allowed-tools: Read, Glob, Grep, Write` (step 8).
@@ -57,13 +59,9 @@ Status: only `ASSIGNMENT.md` exists so far, and the folder is not yet a git repo
 
 - Line 1 `Subject: ...` at 50 characters or fewer; line 2 `Preview: ...` at 90 characters or fewer.
 - Greeting uses `{{first_name}}`.
-- Exactly one link: `[Button text](https://kettlebird.example/steep-club)`.
-- Ends with the brand sign-off from `brand/voice.md`, then this footer as plain text (never in a code block):
-  ```
-  You're getting this because you joined the Kettlebird Tea waitlist.
-  Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
-  ```
-- Avoid every word and claim that `brand/voice.md` forbids, such as health or "detox" claims. When checking, measure lengths and link counts with commands instead of eyeballing them.
+- Exactly one main link, pointing at a page of the book (the course sample uses `kettlebird.example`; step 6 sets ours, likely https://agentfactory2.panaversity.org/certification-and-portfolio-roadmaps/).
+- Ends with the sign-off from `brand/voice.md`, then a two-line footer as plain text (never in a code block): why the reader is getting the email, then `Panaversity, {{company_address}} · Unsubscribe: {{unsubscribe_url}}`. Step 6 fixes the exact wording.
+- Avoid every word and claim that `brand/voice.md` forbids, such as promising a job, income or a pass. When checking, measure lengths and link counts with commands instead of eyeballing them.
 
 ## Commands
 
@@ -76,7 +74,7 @@ claude plugin marketplace add anthropics/knowledge-work-plugins --scope project
 claude plugin install marketing@knowledge-work-plugins --scope project
 
 # Headless review of a campaign; writes review/findings.json, exits 1 on any high-severity finding
-node scripts/review.mjs campaigns/steep-club-launch
+node scripts/review.mjs campaigns/<campaign-folder>
 
 # Plugin packaging (step 14)
 claude plugin validate ../studio-kit
@@ -91,4 +89,4 @@ Real sending is opt-in only. Set `RESEND_API_KEY` and `RESEND_BASE_URL=https://a
 - `CLAUDE_HEADLESS=true`, `--batch` and `.claude/config.json` command lists are not real.
 - Name forks with `-n` (`claude --resume <name> --fork-session -n <new>`), or resume fails with "matches 2 sessions".
 - New skills, rules, plugins and MCP servers load only when a session starts, so a fresh session is needed after adding them.
-- In `studio-kit`, hooks use `${CLAUDE_PLUGIN_ROOT}` instead of `$CLAUDE_PROJECT_DIR`. Brand voice, leads, campaigns and email rules stay in each client repo, and the kit must contain no "Kettlebird" references.
+- In `studio-kit`, hooks use `${CLAUDE_PLUGIN_ROOT}` instead of `$CLAUDE_PROJECT_DIR`. Brand voice, leads, campaigns and email rules stay in each client repo, and the kit must contain nothing specific to one brand: no "Panaversity", "Agent Factory" or "Kettlebird".
