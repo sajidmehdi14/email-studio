@@ -46,7 +46,7 @@ my-email-studio/
 
 **No brand of your own?** Use the sample: Kettlebird Tea, a made-up tea shop launching a monthly tea box called The Steep Club. The prompts below use it.
 
-3 of 15 done
+4 of 15 done
 
 #### Part 1 · Plan and write
 
@@ -237,7 +237,7 @@ Exam answer: to see which memory files are loaded, use /memory. In today's produ
 
 Use a ready-made skill from the plugin to turn an idea into a full plan.
 
-[ ] Done
+[x] Done
 
 **In plain words:** `/marketing:campaign-plan` is a planning form a marketing team already tested. You fill in the blanks and it builds the structure.
 
