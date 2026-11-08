@@ -3,17 +3,17 @@ Preview: Pair your exam with a portfolio piece a stranger can check. Here's how 
 
 Hi {{first_name}},
 
-A short one this week, because it's the holidays.
+A short one this week, as the year winds down.
 
 An exam shows you know the material. A portfolio shows you can **build** with it. That's why the book says certifications are milestones, not the product.
 
-The roadmap page lists portfolio milestones from A to F. Each one pairs with an exam, so you can work on both at the same time:
+The roadmap page lists portfolio milestones from A to F. The first ones pair with the exams, so you can work on an exam and its milestone at the same time:
 
 - Pick the milestone that goes with your exam.
 - Build it in small steps, the same way you work through the labs.
 - Write a few lines on what you made and why, so a stranger can check your work.
 
-If you're a builder and the FDE Internship Program interests you, a portfolio is how you show what you can do.
+If the FDE Internship Program interests you, it asks you to pass PCAO-F and PCAR-F. A portfolio shows what you can do alongside them.
 
 Your next step: find the milestone that goes with your exam.
 

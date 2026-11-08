@@ -3,15 +3,17 @@ Preview: Four exams, one clear next step for you. Here's how to pick your route 
 
 Hi {{first_name}},
 
-You've been reading *The AI Agent Factory*, and that's real progress. Today let's turn that reading into a plan.
+You've been reading The AI Agent Factory, and that's real progress. Today let's turn that reading into a plan.
 
-The book has four certifications. Each one is a **milestone** on your route through the book:
+Panaversity has four certification exams, and the book prepares you for them. Each exam is a **milestone** on your route through the book:
 
-- **PCAO-F** is the first exam for everyday professionals and founders. You manage AI Workers, and you don't need to write code.
-- **PCDV-F** is the first exam for builders, the people who write the code.
-- **PCAR-F** and **PCAR-P** are later milestones you can come back to once the first one is done.
+- **PCAO-F** (Panaversity Certified Associate: Foundations) is the first exam for everyday professionals and founders. You manage AI Workers, and you don't need to write code.
+- **PCDV-F** (Panaversity Certified Developer: Foundations) is the first exam for builders, the people who write the code.
+- For builders, **PCAR-F** (Panaversity Certified Architect: Foundations) comes next after PCDV-F. **PCAR-P** (Panaversity Certified Architect: Professional) is a further step for later.
 
-Not sure which one is yours? The roadmap page shows each route, marks "you are here", and tells you which exam comes first.
+Aiming for the FDE Internship Program? It asks you to pass PCAO-F and PCAR-F, so builders take PCAO-F too.
+
+Not sure which one is yours? The roadmap page shows each route, marks "you are here", and tells you which exam comes first. Exam versions change from time to time, so it's also the place to check the current one.
 
 One honest note before you start: certifications are milestones, not the product. The real goal is **a portfolio a stranger can check**. We'll come back to that in two weeks.
 

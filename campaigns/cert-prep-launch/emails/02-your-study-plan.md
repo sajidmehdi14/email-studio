@@ -5,14 +5,14 @@ Hi {{first_name}},
 
 Last week you found your route. This week, let's make a plan that fits around your life.
 
-A little practice each week beats cramming the night before. Here's a simple four-week plan:
+A little practice each week beats cramming the night before. Here's a simple 4-week plan:
 
 - **Week 1:** read the opening chapters for your route and do the first lab.
 - **Week 2:** work through the next labs. When you get stuck, ask Zia Tutor AI.
 - **Week 3:** read the exam notes at the end of each chapter lab, and practice the parts that feel hardest.
 - **Week 4:** check what your exam covers on the roadmap page, and pick a date that feels right.
 
-Two honest notes. The book and Zia Tutor AI are free, but some later exercises need a paid Claude or ChatGPT plan. And this plan is a guide, not a promise: take the time you need.
+Two honest notes. The book and Zia Tutor AI are free, but some later exercises need a paid Claude or ChatGPT plan, and builders also pay for API usage. And this plan is a guide, not a promise: take the time you need.
 
 Your next step: see exactly what your exam covers, so you know what you're studying for.
 

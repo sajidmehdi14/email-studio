@@ -3,7 +3,7 @@ Preview: No rush and no pressure. If you've been practicing, a date turns your p
 
 Hi {{first_name}},
 
-Over the last few weeks you found your route, made a study plan and picked a portfolio milestone. That's a lot of progress, and it's worth saying so.
+Over the last few weeks we've looked at your route, a study plan and a portfolio milestone. Wherever you are with those, you've made progress, and it's worth saying so.
 
 If you've been practicing, choosing a date is the step that makes the plan real. If you're not ready yet, that's fine too. Keep going with the labs, and come back to this when you are.
 
@@ -11,7 +11,7 @@ Before you book, check the latest exam guide on the roadmap page. Exam versions 
 
 Your next step: check your exam, then choose a date that gives you enough time to prepare.
 
-[Check my exam and book](https://agentfactory2.panaversity.org/certification-and-portfolio-roadmaps/)
+[Check my exam](https://agentfactory2.panaversity.org/certification-and-portfolio-roadmaps/)
 
 You've got this, and see you at the next milestone.
 Zia Khan and the Panaversity team

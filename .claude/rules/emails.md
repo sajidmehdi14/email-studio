@@ -19,3 +19,5 @@ Also:
 
 - Use no word or claim that `brand/voice.md` says to avoid.
 - One email per file, holding only the email itself: no subject-line options, notes or explanations.
+- Write the book's title, The AI Agent Factory, in plain text with no italics, the same way in every email.
+- The button text must describe what the linked page really lets the reader do. For example, don't say "book" unless the link goes to a booking page.

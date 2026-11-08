@@ -51,7 +51,7 @@ No paid ads. The one link in each email points to a page of the book, mostly htt
 | Email | Send date | Audience | Purpose | Link to |
 |---|---|---|---|---|
 | 01 "You are here" | Tuesday 8 December 2026 | All three groups | Welcome, explain the certifications in plain English, help each student find their route and first exam | Certification roadmap |
-| 02 "Your study plan" | Tuesday 15 December 2026 | All three groups, a version per group | A simple 4-week study plan for their exam, using the book's labs and Zia Tutor | Their route's first lab or chapter |
+| 02 "Your study plan" | Tuesday 15 December 2026 | All three groups, a version per group | A simple 4-week study plan for their exam, using the book's labs and Zia Tutor | Certification roadmap (what each exam covers) |
 | 03 "More than a certificate" | Tuesday 22 December 2026 | All three groups, a version per group | The portfolio milestone that goes with their exam, so the exam is a step, not the finish | Certification roadmap (milestones) |
 | 04 "Book your exam" | Tuesday 29 December 2026 | Students who haven't booked yet | A warm nudge to choose a date and book it, with no pressure | Exam booking page (confirm the URL) |
 
