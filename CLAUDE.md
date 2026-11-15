@@ -31,7 +31,7 @@ A hands-on Claude Code course project ("Email Studio Lab"). It builds an email-m
 
 `ASSIGNMENT.md` is the source of truth: 15 steps, each with a **Build** prompt, then a **Check** prompt run in a *fresh* session. When asked to do a step, follow its Build prompt exactly (file names, front matter, folder layout). Many later steps depend on exact paths from earlier ones. Check prompts say "Don't change any files": respect that and only measure and report.
 
-Progress is tracked with the `[x] Done` boxes and the "N of 15 done" line in `ASSIGNMENT.md`. The repo is on GitHub as `sajidmehdi14/email-studio` (private).
+Progress is tracked with the `[x] Done` boxes and the "N of 15 done" line in `ASSIGNMENT.md`. The repo is on GitHub as `sajidmehdi14/email-studio` (public).
 
 When a Build or Check prompt uses the Kettlebird sample (Steep Club, tea groups, `kettlebird.example` link, tea footer, "detox" examples), carry out the same task for the book instead. Keep the prompt's structure and file paths, and swap only the brand details.
 
